@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiex1.controller.ConnectController">
+   <children>
+      <Button fx:id="friend_request" layoutX="202.0" layoutY="141.0" mnemonicParsing="false" onAction="#search" prefHeight="26.0" prefWidth="161.0" text="friend requests" textFill="#a931bd">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="show_friends" layoutX="202.0" layoutY="212.0" mnemonicParsing="false" onAction="#show_friends" prefHeight="26.0" prefWidth="161.0" text="show friends" textFill="#bd31bb">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button layoutX="466.0" layoutY="348.0" mnemonicParsing="false" onAction="#logout" prefHeight="26.0" prefWidth="113.0" text="Logout">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
